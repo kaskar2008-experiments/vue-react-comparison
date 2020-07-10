@@ -13,5 +13,11 @@ export default {
   components: {
     HelloWorld,
   },
+  provide() {
+    return {
+      fast: true,
+      record: false,
+    };
+  },
 };
 </script>
